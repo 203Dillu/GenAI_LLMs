@@ -1,1 +1,11 @@
-google.generativeai
+google-generativeai
+python-dotenv
+requests
+transformers
+torch
+pytorch_lightning
+openai
+fastapi
+numpy
+pandas
+scikit-learn
