@@ -1,6 +1,7 @@
-# GenAI LLMs
+### 1. GenAI LLMs
+```markdown
 
-## Description
+# Description
 GenAI LLMs is a cutting-edge project focused on the development and implementation of large language models used for various applications such as natural language processing, text generation, and AI-driven conversational agents.
 
 ## Features
@@ -11,33 +12,40 @@ GenAI LLMs is a cutting-edge project focused on the development and implementati
 
 ## Installation
 To install the GenAI LLMs project, follow these steps:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/203Dillu/GenAI_LLMs.git
-Navigate to the project directory:
-bash
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/203Dillu/GenAI_LLMs.git
+```
+
+### 2. Navigate to the project directory:
+```bash
 cd GenAI_LLMs
-Install the required dependencies:
-bash
+```
+
+### 3. Install the required dependencies:
+```bash
 pip install -r requirements.txt
-Usage
-After installation, you can use the project by importing the necessary modules in your applications. Here is a simple example:
+```
 
-Python
-from genai import LanguageModel
-
-model = LanguageModel()  
-response = model.generate('Hello world!')  
-print(response)
-API Setup
+## API Setup
 To set up the API, follow these instructions:
 
+### 1. Sign up for an API key
 Sign up for an API key at [API Provider Link].
-Create a configuration file named config.json in the project root with the following structure:
-JSON
+
+### 2. Create configuration file
+Create a configuration file named `config.json` in the project root with the following structure:
+
+```json
 {
     "api_key": "YOUR_API_KEY"
 }
-Start the API service:
-bash
+```
+
+### 3. Start the API service:
+```bash
 python api_service.py
+```
+
+
